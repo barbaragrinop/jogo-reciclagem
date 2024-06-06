@@ -12,6 +12,12 @@ Imagens definidas, no processo de estruturação dos componentes internos.
 - Script que faz a camera da cena acompanhar suavemente a movimentação do Player
 - Definição dos collider de limite do cenário
 
+05/06:
+- Criação dos Sprites de lixo coletáveis
+- Barreiras do limite do mapa
+- Script da camera acompanhar ajustado
+- Script que coletaa itens e armazena na interface
+  
 ## Tecnologias e IDEs utilizadas  
   - Unity
   - C#
