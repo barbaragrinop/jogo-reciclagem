@@ -4,7 +4,13 @@
 Jogo 2D, coletar itens espalhos pelo cenário e leva-los ao cesto de lixo da cor correta, seguindo o sprincípios da reciclagem
 
 ## Progresso
-Em andamento. Imagens definidas, no processo de estruturação dos componentes internos.
+Imagens definidas, no processo de estruturação dos componentes internos.
+
+29/05:
+- Criação dos Sprites Player, Background e Lixeiras.
+- Movimentação do Player em 4 direções: top right down left
+- Script que faz a camera da cena acompanhar suavemente a movimentação do Player
+- Definição dos collider de limite do cenário
 
 ## Tecnologias e IDEs utilizadas  
   - Unity
