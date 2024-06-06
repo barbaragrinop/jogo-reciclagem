@@ -8,6 +8,12 @@ public class scrCameraFollow : MonoBehaviour
     public float smoothing = 5f;
 
     private Vector3 offset;
+    public float maxLimit = 6.86f;
+    public float minLimit = -6.77f;
+
+    public float minLimitY = -14.31f;
+
+    public float maxLimitY = 0.05f;
 
     void Start()
     {
@@ -21,7 +27,11 @@ public class scrCameraFollow : MonoBehaviour
         {
             // Calcula a nova posição da câmera
             Vector3 targetCamPos = target.position + offset;
-            
+
+            // Aplica os limites de clamping
+            targetCamPos.x = Mathf.Clamp(targetCamPos.x, minLimit, maxLimit);
+            targetCamPos.y = Mathf.Clamp(targetCamPos.y, minLimitY, maxLimitY);
+
             // Move a câmera suavemente para a nova posição
             transform.position = Vector3.Lerp(transform.position, targetCamPos, smoothing * Time.deltaTime);
         }
