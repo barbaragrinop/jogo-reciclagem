@@ -17,6 +17,15 @@ Imagens definidas, no processo de estruturação dos componentes internos.
 - Barreiras do limite do mapa
 - Script da camera acompanhar ajustado
 - Script que coletaa itens e armazena na interface
+
+10/06:
+-Script para coletar elementos lixo
+-Script para verficar se o lixo coletado corresponde a lixeira selecionada
+-Animações do Player
+-Contador de pontos
+-Mensagem de feedback se o tipo do lixo coletado está sendo colcoado na lixeira correta
+-Novos sprites
+
   
 ## Tecnologias e IDEs utilizadas  
   - Unity
