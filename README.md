@@ -68,7 +68,7 @@ Objetivo: Limpar o cenário utilizando os princípios da reciclagem.
 
 Foram realizados testes com 3 voluntários e foi constado certa dificuldade para ler as informações da tela tutorial e o tempo da fase era curto demais tornando a gameplay complicada.
 
-Implementações: Alterado a cor da fonte para cinza escuro oferecendo maior contraste e
+Implementações: Alterado a cor da fonte para cinza escuro oferecendo maior contraste e aumentado o tempo limite para 2:00
 
     
 ## Autores do Projeto  
