@@ -80,7 +80,7 @@ public class scrLixeira : MonoBehaviour
     IEnumerator FadeMensagem()
     {
         Color originalColor = mensagemText.color;
-        float duration = 0.2f; // Duração do fade-in e fade-out
+        float duration = 0.1f; // Duração do fade-in e fade-out
 
         // Fade-in
         for (float t = 0.01f; t < duration; t += Time.deltaTime)
